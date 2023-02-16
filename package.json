@@ -1,5 +1,17 @@
 {
+  "jest": {
+    "verbose": true
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "chai": "^4.3.7",
+    "g": "^2.0.1",
+    "jest-cli": "^29.4.3"
+  },
+  "type": "module",
   "devDependencies": {
-    "chai": "^4.3.6"
+    "@babel/preset-env": "^7.20.2"
   }
 }
