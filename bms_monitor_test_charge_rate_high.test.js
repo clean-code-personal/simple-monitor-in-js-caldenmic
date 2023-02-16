@@ -1,4 +1,4 @@
-import { batteryIsOk } from "./bms_monitor_production";
+import { batteryIsOk } from "./bms_monitor";
 import { batteryReporter } from "./bms_monitor_battery_reporter";
 
 test("Ckecking if all the Charge State status is high", () => {
