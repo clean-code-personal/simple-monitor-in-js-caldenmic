@@ -1,4 +1,4 @@
-import { name_mappings } from './bms_monitor_production.js'
+import { name_mappings } from './bms-monitor.js'
 
 function batteryReporter(attribute_status, abnormality) {
     if (!abnormality) {
